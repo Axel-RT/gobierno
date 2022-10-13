@@ -3,12 +3,36 @@
     justify-content:flex-end;
     align-items: center;
     gap: 20px;
-    padding:1.0em 2.5em 0.5em 0.5em;
+    padding:1.0em 4.5em 0.5em 0.5em;
+    border-top: 1px solid rgb(196, 180, 160);
+    color: #104c42;
 }
 section h1{
     width: 500px;
     height: 500px;
     display: grid;
-    grid-template-columns:300px 300px ;
+    grid-template-columns:300px 300px 300px 300px;
     grid-template-rows:100px 100px 100px 100px ;
+    grid-area: auto;
+}
+main section{
+background-image:url(img/fondopilares.jpg);
+background-repeat: no-repeat;
+background-size: cover;
+}
+.pie{
+    display: flex;
+    justify-content:center;
+    color: rgb(159,144,68);
+}
+.prime{
+    text-align: center;
+    
+}
+.secu{
+    text-align: center;
+}
+h1{
+    color: aliceblue;
+    font-family: monospace;
 }
