@@ -11,40 +11,58 @@ section h1{
     width: 500px;
     height: 500px;
     display: grid;
-    grid-template-columns:250px 250px 250px 250px 250px;
-    grid-template-rows:100px 100px 100px 100px ;
+    grid-template-columns:250px 190px 275px 300px 250px;
+    grid-template-rows:70px 100px 100px 100px 100px ;
     grid-area: auto;
+    justify-items: center;
+    align-items: center;
+    
+}
+.i{
+    justify-self:flex-start;
+grid-column:1/2 ;
+grid-row: 2/3;
+font-size:120px;
+justify-content: space-around;
 }
 .u1{
-display: flex;
-align-items: center;
+justify-self: center;
 grid-column:1/5 ;
-grid-row: 1/2;
-font-size:50px;
+grid-row: 2/3;
+font-size:70px;
 justify-content: space-around;
 }
 .u2{
-display: flex;
-align-items: center;
-grid-column:2/5 ;
-grid-row:2/3 ;
-font-size:50px;
+    justify-self: flex-start;
+grid-column:2/4 ;
+grid-row:3/4 ;
+font-size:70px;
 justify-content: space-around;
+
+}
+.u22{
+    justify-self: flex-end;
+    align-items: center;
+    grid-column: 3/5;
+    grid-row: 3/4;
+    font-size:90px;
+    justify-content:space-between;
+    font-family:Verdana, Geneva, Tahoma, sans-serif
 }
 .u3{
-display: flex;
+    justify-self: flex-end;
 align-items: center;
-grid-column:3/5 ;
-grid-row:3/4 ;
-font-size:50px;
+grid-column:2/5;
+grid-row:4/5 ;
+font-size:90px;
 justify-content: space-around;
+font-family:Verdana, Geneva, Tahoma, sans-serif;
 }
 .u4{
-    display: flex;
-    align-items: center;
-grid-column: 3/5;
-grid-row: 4/5;
-font-size:50px;
+justify-self: first baseline;
+    grid-column: 3/5;
+grid-row: 5/6;
+font-size:70px;
 justify-content: space-around;
 }
 main section{
@@ -66,5 +84,5 @@ background-size: cover;
 }
 h1{
     color: aliceblue;
-    font-family: monospace;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
