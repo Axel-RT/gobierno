@@ -11,9 +11,41 @@ section h1{
     width: 500px;
     height: 500px;
     display: grid;
-    grid-template-columns:300px 300px 300px 300px;
+    grid-template-columns:250px 250px 250px 250px 250px;
     grid-template-rows:100px 100px 100px 100px ;
     grid-area: auto;
+}
+.u1{
+display: flex;
+align-items: center;
+grid-column:1/5 ;
+grid-row: 1/2;
+font-size:50px;
+justify-content: space-around;
+}
+.u2{
+display: flex;
+align-items: center;
+grid-column:2/5 ;
+grid-row:2/3 ;
+font-size:50px;
+justify-content: space-around;
+}
+.u3{
+display: flex;
+align-items: center;
+grid-column:3/5 ;
+grid-row:3/4 ;
+font-size:50px;
+justify-content: space-around;
+}
+.u4{
+    display: flex;
+    align-items: center;
+grid-column: 3/5;
+grid-row: 4/5;
+font-size:50px;
+justify-content: space-around;
 }
 main section{
 background-image:url(img/fondopilares.jpg);
