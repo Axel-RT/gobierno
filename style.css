@@ -7,6 +7,20 @@
     border-top: 1px solid rgb(196, 180, 160);
     color: #104c42;
 }
+.u1::before{
+    content: "";
+    background-image: url("https://escuelasdecodigo.cdmx.gob.mx/wp-content/themes/escuelasdecodigo/dist/assets/hero-vector.svg");
+    position: absolute;
+    left: 0px;
+    width: 33px;
+    height: 63px;
+    top: 12px;
+    left: -55px;
+}
+a{
+    text-decoration: none;
+    color: #104c42;
+}
 section h1{
     width: 500px;
     height: 500px;
@@ -26,6 +40,7 @@ font-size:120px;
 justify-content: space-around;
 }
 .u1{
+    position: relative;
 justify-self: center;
 grid-column:1/5 ;
 grid-row: 2/3;
